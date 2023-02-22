@@ -5,6 +5,7 @@ Recurrent neural network for creating jokes
 This multi-layered recurrent neural network is capable of character-level jokes generation.
 
 Layer (type)                Output Shape              Param #
+
 -----------------------------------------------------------------
 embedding (Embedding)       multiple                  86016
 
@@ -25,6 +26,7 @@ gru_3 (GRU)                 multiple                  1575936
 dropout_3 (Dropout)         multiple                  0
 
 dense (Dense)               multiple                  86184
+
 -----------------------------------------------------------------
 Total params: 6,475,944
 Trainable params: 6,475,944
