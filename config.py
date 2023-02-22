@@ -1,0 +1,10 @@
+FILE = "data.txt"
+SEQ_LEN = 200
+STOP_SIGN = '❖'
+START_SIGN = '✼'
+EMBEDDED_DIM = 512
+RNN_UNITS = 512
+DO = 0.1
+LR = 10 ** -3
+BATCH_SIZE = 64
+EPOCHS = 30
